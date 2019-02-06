@@ -1,0 +1,13 @@
+firebase 
+java 
+python 
+sql 
+css 
+javascript 
+github 
+pandas 
+android 
+numpy 
+c 
+php 
+c++ 
