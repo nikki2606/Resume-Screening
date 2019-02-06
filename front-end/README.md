@@ -1,0 +1,1 @@
+-- This folder contains code(HTML and CSS) required for developing front-end of the website.
