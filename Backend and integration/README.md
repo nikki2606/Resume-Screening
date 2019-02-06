@@ -1,0 +1,2 @@
+-- This folder contains code for backend and integration.
+-It doesnt contain the code for AI, Data Mining and ML.
