@@ -1,0 +1,63 @@
+@import "colors";
+
+/*========================================
+            Buttons Style
+========================================*/
+
+.btn-blue {
+    background: $blue-primary;
+    padding: 10px 28px;
+    border: 2px solid $blue-primary;
+    color: $white;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    transition: 0.5s all;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, .6);
+    outline: none !important;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+    background: $white;
+    color: $base-typo;
+}
+
+.btn-transparent {
+    background: transparent;
+    padding: 10px 28px;
+    color: $white;
+    border: 2px solid $white;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    transition: 0.5s all;
+    outline: none !important;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active {
+    background: $white;
+    color: $base-typo;
+}
+
+.btn-white {
+    background: $white;
+    padding: 10px 28px;
+    color: $base-typo;
+    border: 2px solid $white;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    transition: 0.5s all;
+    outline: none !important;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+    background: transparent;
+    color: $white;
+}

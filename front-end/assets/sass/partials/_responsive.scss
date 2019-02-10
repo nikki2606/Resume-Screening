@@ -1,0 +1,296 @@
+// Media Queries
+
+/*-- Navbar Bug Fix --*/
+
+@media (max-width: 1023px) {
+    /* Navbar Responsive
+    =================================*/
+    nav.navbar.bootsnav .navbar-brand {
+        display: inline-block;
+        float: none !important;
+        margin: 0 !important;
+        padding: 3px 15px;
+        img {
+            width: 30px;
+        }
+    }
+    nav.navbar.bootsnav .navbar-header {
+        float: none;
+        display: block;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        display: inline-block;
+        float: left;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    nav.navbar.bootsnav .navbar-collapse {
+        border: none;
+        margin-bottom: 0;
+    }
+    nav.navbar.bootsnav.no-full .navbar-collapse {
+        max-height: 350px;
+        overflow-y: auto !important;
+    }
+    nav.navbar.bootsnav .navbar-collapse.collapse {
+        display: none !important;
+    }
+    nav.navbar.bootsnav .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    nav.navbar.bootsnav .navbar-nav {
+        float: none !important;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0px -15px;
+    }
+    nav.navbar.bootsnav .navbar-nav > li {
+        float: none;
+    }
+    nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
+        font-family: 'FontAwesome';
+        content: "\f105";
+        float: right;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    nav.navbar.bootsnav li.dropdown.on > a.dropdown-toggle:before {
+        content: "\f107";
+    }
+    nav.navbar.bootsnav .navbar-nav > li > a {
+        display: block;
+        width: 100%;
+        border-bottom: solid 1px #e0e0e0;
+        padding: 10px 0;
+        border-top: solid 1px #e0e0e0;
+        margin-bottom: -1px;
+    }
+    nav.navbar.bootsnav .navbar-nav > li:first-child > a {
+        border-top: none;
+    }
+    nav.navbar.bootsnav ul.navbar-nav.navbar-left > li:last-child > ul.dropdown-menu {
+        border-bottom: solid 1px #e0e0e0;
+    }
+    nav.navbar.bootsnav ul.nav li.dropdown li a.dropdown-toggle {
+        float: none !important;
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu {
+        width: 100%;
+        position: relative !important;
+        background-color: transparent;
+        float: none;
+        border: none;
+        padding: 0 0 0 15px !important;
+        margin: 0 0 -1px 0 !important;
+        -moz-box-shadow: 0px 0px 0px;
+        -webkit-box-shadow: 0px 0px 0px;
+        -o-box-shadow: 0px 0px 0px;
+        box-shadow: 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px;
+        -o-border-radius: 0px 0px 0px;
+        border-radius: 0px 0px 0px;
+    }
+    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a {
+        display: block;
+        width: 100%;
+        border-bottom: solid 1px #e0e0e0;
+        padding: 10px 0;
+        color: #6f6f6f;
+    }
+    nav.navbar.bootsnav ul.nav ul.dropdown-menu li a:hover,
+    nav.navbar.bootsnav ul.nav ul.dropdown-menu li a:focus {
+        background-color: transparent;
+    }
+    nav.navbar.bootsnav ul.nav ul.dropdown-menu ul.dropdown-menu {
+        float: none !important;
+        left: 0;
+        padding: 0 0 0 15px;
+        position: relative;
+        background: transparent;
+        width: 100%;
+    }
+    nav.navbar.bootsnav ul.nav ul.dropdown-menu li.dropdown.on > ul.dropdown-menu {
+        display: inline-block;
+        margin-top: -10px;
+    }
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:after {
+        display: none;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title {
+        padding: 10px 15px 10px 0;
+        line-height: 24px;
+        text-transform: none;
+        font-weight: 400;
+        letter-spacing: 0px;
+        margin-bottom: 0;
+        cursor: pointer;
+        border-bottom: solid 1px #e0e0e0;
+        color: #6f6f6f;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu ul > li > a {
+        display: block;
+        width: 100%;
+        border-bottom: solid 1px #e0e0e0;
+        padding: 8px 0;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before {
+        font-family: 'FontAwesome';
+        content: "\f105";
+        float: right;
+        font-size: 16px;
+        margin-left: 10px;
+        position: relative;
+        right: -15px;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu:last-child .title {
+        border-bottom: none;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu.on:last-child .title {
+        border-bottom: solid 1px #e0e0e0;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu:last-child ul.menu-col li:last-child a {
+        border-bottom: none;
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu.on .title:before {
+        content: "\f107";
+    }
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .content {
+        padding: 0 0 0 15px;
+    }
+    nav.bootsnav.brand-center .navbar-collapse {
+        display: block;
+    }
+    nav.bootsnav.brand-center ul.nav {
+        margin-bottom: 0px !important;
+    }
+    nav.bootsnav.brand-center .navbar-collapse .col-half {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    nav.bootsnav.brand-center .navbar-collapse .col-half.left {
+        margin-bottom: 0;
+    }
+    nav.bootsnav .megamenu-content {
+        padding: 0;
+    }
+    nav.bootsnav .megamenu-content .col-menu {
+        padding-bottom: 0;
+    }
+    nav.bootsnav .megamenu-content .title {
+        cursor: pointer;
+        display: block;
+        padding: 10px 15px;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+    nav.bootsnav .megamenu-content .content {
+        display: none;
+    }
+    .attr-nav {
+        position: absolute;
+        right: 60px;
+    }
+    .attr-nav > ul {
+        padding: 0;
+        margin: 0 -15px -7px 0;
+    }
+    .attr-nav > ul > li > a {
+        padding: 16px 15px 15px;
+    }
+    .attr-nav > ul > li.dropdown > a.dropdown-toggle:before {
+        display: none;
+    }
+    .attr-nav > ul > li.dropdown ul.dropdown-menu {
+        margin-top: 2px;
+        margin-left: 55px;
+        width: 250px;
+        left: -250px;
+        border-top: solid 5px;
+    }
+    .top-search .container {
+        padding: 0 45px;
+    }
+}
+
+// Tablet Size Fix
+@media (max-width: 992px) {
+    #home {
+        .container {
+            text-align: center;
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 26px;
+            }
+        }
+    }
+    section {
+        .col-md-4 {
+            margin-bottom: 40px;
+        }
+    }
+    #newsletter {
+        .form-container {
+            .form-inline {
+                .btn {
+                    position: relative;
+                    right: 143px;
+                }
+            }
+        }
+    }
+}
+
+// Mobile Size Fix
+@media (max-width: 767px) {
+    #home {
+        .container {
+            text-align: center;
+            h1 {
+                font-size: 34px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+    }
+    #clients {
+        #owl-testimonials {
+            .item {
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #newsletter {
+        .form-container {
+            .form-inline {
+                .form-control {
+                    width: 80%;
+                }
+                .btn {
+                    position: relative;
+                    right: 40px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    #contact {
+        .contact-info {
+            position: relative !important;
+            top: 0 !important;
+            margin-top: 40px;
+        }
+    }
+}

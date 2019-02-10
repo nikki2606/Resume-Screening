@@ -1,0 +1,49 @@
+@import "colors";
+
+/*========================================
+            Typography
+========================================*/
+
+$light: 300;
+$normal: 400;
+$bold: 700;
+
+/*-- Typo Style --*/
+
+h1 {
+    font-size: 48px;
+    font-weight: $bold;
+    letter-spacing: 0.08em;
+    margin-bottom: 35px;
+    color: $white;
+}
+
+h2 {
+    font-size: 36px;
+    letter-spacing: 0.08em;
+}
+
+h3 {
+    font-size: 32px;
+    letter-spacing: 0.08em;
+}
+
+h4 {
+    font-size: 24px;
+    letter-spacing: 0.08em;
+}
+
+h5 {
+    font-size: 18px;
+    letter-spacing: 0.08em;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    line-height: 24px;
+}
